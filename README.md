@@ -25,7 +25,7 @@ cd monorepo-clean-architecture-tdd
 # Install dependencies 
 yarn install 
 # Start the application 
-yarn start
+nx serve web
 ```
 
 Visit `http://localhost:4200` in your browser to view the application.
