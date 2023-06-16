@@ -1,6 +1,6 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-import { useIsMounted } from '../../../hooks/useIsMounted';
+import { useIsMounted } from '../../hooks/useIsMounted';
 
 interface Props {
   children: React.ReactNode;
