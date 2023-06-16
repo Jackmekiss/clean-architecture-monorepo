@@ -21,7 +21,7 @@ To run the project, clone the repository and follow the installation steps:
 
 ```bash
 # Clone the repository 
-git clone https://github.com/Jackmekiss/monorepo-clean-architecture-tdd.git 
+git clone https://github.com/Jackmekiss/clean-architecture-monorepo.git 
 # Navigate into the directory  
 cd monorepo-clean-architecture-tdd 
 # Install dependencies 
@@ -36,7 +36,7 @@ Visit `http://localhost:4200` in your browser to view the application.
 Your contributions are always welcome! Please have a look at the contribution guidelines first. 🎉
 
 **License**
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Jackmekiss/monorepo-clean-architecture-tdd/blob/master/LICENCE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Jackmekiss/clean-architecture-monorepo/blob/master/LICENCE) file for details.
 
 **Acknowledgments**
 This project structure is inspired by the principles of Clean Architecture and the power of monorepo structure by [Nx Dev](https://nx.dev/). It serves as a showcase for building sophisticated applications using these techniques, with the added benefits of Typescript and React.
