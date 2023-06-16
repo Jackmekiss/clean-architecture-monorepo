@@ -1,4 +1,4 @@
-import { UuidGenerator } from '../../../../gateways/UuidGenerator';
+import { UuidGenerator } from '../../gateways/UuidGenerator';
 
 export class DeterministicUUIDGenerator implements UuidGenerator {
   private _nextUUID = '';

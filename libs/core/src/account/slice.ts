@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import { Account } from './domain/account';
 import { Token } from './domain/token';
 
-interface AccountState {
+export interface AccountState {
   data: Account | null;
   isLoading: boolean;
 }
@@ -23,7 +23,7 @@ export const accountSlice = createSlice({
   },
 });
 
-interface TokenState {
+export interface TokenState {
   data: Token | null;
   isLoading: boolean;
 }
