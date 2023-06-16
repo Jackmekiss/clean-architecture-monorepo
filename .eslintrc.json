@@ -1,0 +1,133 @@
+{
+  "root": true,
+  "env": {
+      "browser": true,
+      "es6": true
+  },
+  "extends": [
+      "plugin:react/recommended",
+      "airbnb"
+  ],
+  "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+      "ecmaFeatures": {
+          "jsx": true
+      },
+      "ecmaVersion": 2018,
+      "sourceType": "module",
+      "warnOnUnsupportedTypeScriptVersion": false
+  },
+  "plugins": [
+      "react",
+      "@typescript-eslint",
+      "import"
+  ],
+  "overrides": [
+      {
+          "files": [
+              "**/*.spec.js",
+              "**/*.spec.jsx",
+              "**/*.spec.ts",
+              "**/*.spec.tsx"
+          ],
+          "env": {
+              "jest": true
+          }
+      }
+  ],
+  "settings": {
+      "import/parsers": {
+          "@typescript-eslint/parser": [
+              ".ts",
+              ".tsx"
+          ]
+      },
+      "import/resolver": {
+          "typescript": {
+              "project": [
+                  "tsconfig.base.json"
+              ]
+          }
+      }
+  },
+  "rules": {
+      "import/extensions": [
+          "error",
+          "ignorePackages",
+          {
+              "js": "never",
+              "jsx": "never",
+              "ts": "never",
+              "tsx": "never"
+          }
+      ],
+      "react/jsx-props-no-spreading": "off",
+      "react/prop-types": "off",
+      "no-param-reassign": "off",
+      "consistent-return": "off",
+      "no-shadow": "off",
+      "jsx-a11y/no-noninteractive-tabindex": "off",
+      "no-use-before-define": "off",
+      "no-nested-ternary": "off",
+      "react/no-unused-prop-types": "off",
+      "no-multi-assign": "off",
+      "no-empty-pattern": "off",
+      "no-restricted-syntax": "off",
+      "no-useless-constructor": "off",
+      "no-empty-function": "off",
+      "react/react-in-jsx-scope": "off",
+      "jsx-a11y/click-events-have-key-events": "off",
+      "jsx-a11y/no-static-element-interactions": "off",
+      "react/no-unstable-nested-components": "off",
+      "react/require-default-props": "off",
+      "import/no-duplicates": "off",
+      "jsx-a11y/control-has-associated-label": "off",
+      "default-param-last": "off",
+      "import/prefer-default-export": "off",
+      "no-underscore-dangle": "off",
+      "import/no-cycle": "off",
+      "no-redeclare": "off",
+      "global-require": "off",
+      "no-return-await": "off",
+      "react/function-component-definition": "off",
+      "class-methods-use-this": "off",
+      "no-restricted-globals": "off",
+      "import/no-named-as-default": "off",
+      "react/button-has-type": "off",
+      "react/no-array-index-key": "off",
+      "jsx-a11y/label-has-associated-control": "off",
+      "react/destructuring-assignment": "off",
+      "no-promise-executor-return": "off",
+      "no-useless-return": "off",
+      "no-loop-func": "off",
+      "no-case-declarations": "off",
+      "@typescript-eslint/no-use-before-define": "off",
+      "import/no-extraneous-dependencies": "off",
+      "react/jsx-no-useless-fragment": "off",
+      "import/no-dynamic-require": "off",
+      "react/static-property-placement": "off",
+      "react/no-unescaped-entities": "off",
+      "max-len": [
+          2,
+          {
+              "code": 400,
+              "ignoreStrings": true,
+              "ignoreComments": true
+          }
+      ],
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": "error",
+      "react/jsx-filename-extension": [
+          "warn",
+          {
+              "extensions": [
+                  ".tsx"
+              ]
+          }
+      ]
+  }
+}
