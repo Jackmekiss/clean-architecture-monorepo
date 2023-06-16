@@ -42,7 +42,7 @@ const LoginModal = forwardRef((props: Props, ref) => {
   }));
 
   return (
-    <dialog ref={modalRef} className="modal">
+    <dialog ref={modalRef} className="modal modal-bottom sm:modal-middle">
       <form method="dialog" className="modal-box">
         <h3 className="font-bold text-lg">Hello!</h3>
         <p className="py-4">You need to be connected to perform this action!</p>
