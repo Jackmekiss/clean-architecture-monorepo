@@ -6,7 +6,7 @@ export interface SerializedException {
 }
 
 export abstract class ExceptionBase extends Error {
-  constructor(readonly message: string, readonly metadata?: unknown) {
+  constructor(override readonly message: string, readonly metadata?: unknown) {
     super(message);
     Error.captureStackTrace(this, this.constructor);
   }
