@@ -2,6 +2,8 @@
 
 This project aims to showcase the power and effectiveness of the Clean Architecture pattern, implemented in a monorepo using [Nx Dev](https://nx.dev/).
 
+You can see the application in action here: https://monorepo-clean-architecture-tdd.vercel.app
+
 It is a fake chat application, built with React and Typescript, applying `Test Driven Development` (TDD) principles. The monorepo architecture allows for modular and decoupled code, promoting code reuse and making it easier to manage dependencies.
 
 The monorepo is structured as follows:
